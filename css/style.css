@@ -2,7 +2,7 @@
 
 
 
-*,
+*
 html {
     padding: 0;
     margin: 0;
@@ -12,9 +12,12 @@ html {
 body {
     font-family: 'Playfair Display';
 }
-
+.coffee{
+    flex-wrap: wrap;
+}
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
     color: white;
@@ -29,6 +32,7 @@ nav a {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
     font-family: 'Playfair Display';
@@ -122,9 +126,11 @@ nav h1 {
 
 .sugar {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 30px;
-    align-items: center;
+    gap: 10px;
+    align-items:center;
     font-size: 20px;
     margin: 71px 93px;
 
@@ -133,6 +139,7 @@ nav h1 {
 .cinnamon>p {
     margin: 29px 0;
     font-size: 20px;
+    max-width: 350px;
 
 
 }
@@ -147,7 +154,6 @@ h1 {
 .area {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     position: relative;
 
 }
@@ -193,8 +199,8 @@ h1 {
     justify-content: space-around;
     gap: 20px;
     text-align: center;
-    margin: 0 93px;
-    padding: 82px;
+    margin: 0 83px;
+    padding: 72px;
  
     /* @media screen and (max-width){
         flex-wrap: wrap;
@@ -225,7 +231,7 @@ h1 {
 
 .green>.cake {
     position: absolute;
-    bottom: -24px;
+    bottom: -32px;
     right: 72px;
 }
 
@@ -235,6 +241,7 @@ h1 {
     /* justify-content: space-around; */
     gap: 20px;
     align-items: center;
+    justify-content: center;
     margin: 32px 0;
 
 }
@@ -324,6 +331,7 @@ h1 {
 
 .cream {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin: 0px 93px;
     justify-content: space-around;
@@ -367,7 +375,8 @@ h1 {
 }
 
 .maker {
-    display: flex; flex-wrap: wrap;
+    display: flex;
+     flex-wrap: wrap;
     justify-items: center;
     align-items: center;
     text-align: center;
@@ -571,8 +580,10 @@ h1 {
     color: #fff9f1;
 
 }
-
-.k>h2 {
+h2{
+    font-size: 32px;
+}
+/* .k>h2 {
     font-size: 26px;
     margin-bottom: 55px;
 }
@@ -586,7 +597,7 @@ h1 {
     font-size: 26px;
     margin-bottom: 55px;
 
-}
+} */
 
 .h>ul {
     list-style-type: none;
@@ -595,6 +606,7 @@ h1 {
 
 .n {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
 
@@ -612,6 +624,7 @@ h1 {
     font-weight: 400;
     line-height: 22px;
 
+
 }
 
 .j>h1 {
@@ -622,6 +635,8 @@ h1 {
 .m {
     max-width: 320px;
 }
+
+
 
 /* .o {
     width: 100%;
@@ -648,6 +663,7 @@ h1 {
 
 .p {
     display: flex;
+    flex-wrap: wrap;
     gap: 22px;
 }
 
@@ -672,17 +688,54 @@ h1 {
     background-image: linear-gradient(red, orange, yellow, blue, green, brown);
 }
 
-/* @media screen and (max-width:1000px ) {
+@media screen and (max-width:700px ) {
     body{
+        width: 90%;
+        margin: auto;
         flex: wrap;
+        font-size: 18x;
+        font-weight:200px
     }
-} */
+    h1{font-weight: 350;
+    font-size:32px;}
+    .milk h1 {
+        font-size: 64px;
+        font-family: "Clicker Script";
+        font-weight: 500;
+        line-height: 200px;
+
+        
+}
+.e{
+    top: 200px;
+}
+.f{
+    bottom: 0px;
+}
+.coffee{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.fashion{
+    display: none;
+}
+.style{
+  display: none;
+}
+.n{
+    flex-direction: column;
+    
+}
+.home{
+    display: none;
+}
+.grinder{
+    width: 100%;
+    align-items: flex-start ;
+}
+}
 /* 
-.milk h1 {
-    font-size: 220px;
-    font-family: "Clicker Script";
-    font-weight: 400;
-    line-height: 291px;
 
 
 }
