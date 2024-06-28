@@ -712,6 +712,9 @@ h2{
 .f{
     bottom: 0px;
 }
+    .j{
+        justify content:center;
+    }
 .coffee{
     flex-wrap: wrap;
     width: 90%;
