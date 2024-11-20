@@ -685,6 +685,9 @@ h2{
 .f{
     bottom: 0px;
 }
+    .j{
+        justify content:center;
+    }
 .coffee{
     flex-wrap: wrap;
     width: 90%;
@@ -707,4 +710,88 @@ h2{
     width: 100%;
     align-items: flex-start ;
 }
+<<<<<<< HEAD
 }
+=======
+}
+/* 
+
+
+}
+
+
+
+
+
+nav>button:nth-child(2) {
+    border: 1px solid #fad81a;
+    border-radius: 2px;
+    padding: 6px;
+    background-color: #fab31a;
+}
+
+
+
+.milk {
+    color: white;
+    background-size: auto;
+    margin: 50px;
+    background-color: linear gradient(to right, black, white);
+}
+
+.milk:nth-child(1) {
+    font-family: "playfair display";
+    font-size: 22px;
+}
+
+.milk:nth-child(3) {
+    font-family: playfair display;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.milk:nth-child(4) {
+    background-color: #fab31a;
+    font-family: playfiar display;
+    font-size: 20px;
+    color: #1e1e1e;
+    margin: 3px;
+}
+
+
+
+.cinnamon {
+    color: #1e1e1e;
+    margin-top: 90px;
+    padding: auto;
+
+}
+
+.cinnamon>h1 {
+    color: #a52;
+}
+
+.buns {
+    margin: 0px 93px;
+    padding-top: 82px 0px 0px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    font-size: normal;
+
+}
+
+.grinder {
+    margin: 217px;
+    align-items: center;
+}
+
+
+
+
+
+
+tea>cake {
+    margin: 10px;
+} */
+>>>>>>> 3585fc7bec31037b992bad54db69462fec1a10ba
